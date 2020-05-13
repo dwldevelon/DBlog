@@ -3,7 +3,7 @@ server:
     tomcat:
         basedir: /var/tmp/website-blog-web
     servlet:
-        context-path: blog/web
+        context-path: /blog/web
 # SPRING PROFILES
 spring:
     profiles:
