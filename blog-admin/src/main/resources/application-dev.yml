@@ -2,6 +2,8 @@
 server:
     tomcat:
         basedir: /var/tmp/website-blog-admin
+    servlet:
+        context-path: /blog/admin
 # SPRING PROFILES
 spring:
     profiles:
