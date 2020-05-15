@@ -115,9 +115,9 @@ me:
                 clientSecret:
                 redirectUri:
             wechat:
-                clientId:
-                clientSecret:
-                redirectUri:
+                clientId: wx80b6deccdf5913cb
+                clientSecret: 76fc7c39d3dffc9f03c50ef71f805d01
+                redirectUri: http://203.195.155.161:8443/oauth/callback/wechat
             taobao:
                 clientId:
                 clientSecret:
