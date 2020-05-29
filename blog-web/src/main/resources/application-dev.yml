@@ -74,9 +74,9 @@ me:
     zhyd:
         oauth:
             gitee:
-                clientId:
-                clientSecret:
-                redirectUri:
+                clientId: 5740ce4ff0fd41338d7013b4ff95747b5898e52e46313f67167ebfab38029afc
+                clientSecret: 2a940fe5d5b20a366d749edddfa5231b968554b6e30c381ee4b395d88ec0cc17
+                redirectUri: http://blog-web.wenlong.cool/oauth/callback/gitee
             github:
                 clientId:
                 clientSecret:
