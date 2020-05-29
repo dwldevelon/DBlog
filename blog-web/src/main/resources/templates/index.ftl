@@ -13,9 +13,9 @@
         <div id="scrolldiv">
             <div class="scrolltext">
                 <ul class="list-unstyled" id="notice-box">
-                    <li class="scrolltext-title">
+                    <#--<li class="scrolltext-title">
                         <a href="javascript:void(0)" rel="bookmark">本站正式启用新域名:<a href="http://blog-web.wenlong.cool" target="_blank"><strong>http://blog-web.wenlong.cool</strong></a></a>
-                    </li>
+                    </li>-->
                     <li class="scrolltext-title">
                         <a href="javascript:void(0)" rel="bookmark">活了二十多年，没能为祖国、为人民做点什么，每思及此，伤心欲绝。</a>
                     </li>
