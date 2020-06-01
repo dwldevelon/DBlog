@@ -1,5 +1,6 @@
 package com.zyd.blog.framework.advice;
 
+import cn.hutool.core.exceptions.ExceptionUtil;
 import com.zyd.blog.business.consts.CommonConst;
 import com.zyd.blog.business.enums.ResponseStatus;
 import com.zyd.blog.file.exception.GlobalFileException;
@@ -79,6 +80,7 @@ public class ExceptionHandleController {
     @ExceptionHandler(value = Exception.class)
     @ResponseBody
     public ResponseVO handle(Throwable e) {
+        log.error("捕获到未知异常",e);
         if (e instanceof ZhydException || e instanceof GlobalFileException) {
             return ResultUtil.error(e.getMessage());
         }
