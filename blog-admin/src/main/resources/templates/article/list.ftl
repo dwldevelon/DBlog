@@ -174,12 +174,11 @@
 
             var id = $input.data("id");
             var type = $input.data("type");
-
             $.ajax({
                 type: "post",
-                url: "/article/update/" + type,
+                url: "/article/update/" + type+"/"+id,
                 traditional: true,
-                data: {'id': id},
+                data: {},
                 success: function (json) {
                     if (json.status !== 200) {
                         $.alert.error(json.message);

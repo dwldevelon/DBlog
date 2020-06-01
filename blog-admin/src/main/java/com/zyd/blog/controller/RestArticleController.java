@@ -81,9 +81,9 @@ public class RestArticleController {
     }
 
     @RequiresPermissions(value = {"article:top", "article:recommend"}, logical = Logical.OR)
-    @PostMapping("/update/{type}")
+    @PostMapping("/update/{type}/{id}")
     @BussinessLog("修改文章[{2}]的状态[{1}]")
-    public ResponseVO update(@PathVariable("type") String type, Long id) {
+    public ResponseVO update(@PathVariable("type") String type,@PathVariable("id") Long id) {
         articleService.updateTopOrRecommendedById(type, id);
         return ResultUtil.success(ResponseStatus.SUCCESS);
     }
