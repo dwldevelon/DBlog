@@ -29,10 +29,11 @@
                                 <a class="tag-icon" href="javascript:window.open('tencent://message/?uin=${config.qq}&Site=www.${config.domain}&Menu=yes')" title="点击QQ联系我" target="blank" rel="external nofollow"><i class="fa fa-qq"></i></a>
                             </li>
                             <li class="tsina auto-shake">
-                                <a class="tag-icon" href="${config.weibo}" title="点击查看我的微博" target="_blank" rel="external nofollow"><i class="fa fa-weibo"></i></a>
+<#--                                <a class="tag-icon" href="${config.weibo}" title="点击查看我的微博" target="_blank" rel="external nofollow"><i class="fa fa-weibo"></i></a>-->
+                                <a class="tag-icon" href="${config.weibo}" title="点击进入后管" target="_blank" rel="external nofollow"><i class="fa fa-adn"></i></a>
                             </li>
                             <li class="github auto-shake">
-                                <a class="tag-icon" href="${config.github}" title="点击查看我的github" target="_blank" rel="external nofollow"><i class="fa fa-github"></i></a>
+                                <a class="tag-icon" href="${config.github}" title="点击查看我的git仓库" target="_blank" rel="external nofollow"><i class="fa fa-git"></i></a>
                             </li>
                         </ul>
                         <!-- 方案二：列表展示 -->
